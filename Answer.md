@@ -4,7 +4,7 @@ In the provided schema, the relationship between the "Product" and "Product_Cate
 Specifically, the "Product" table contains a column named "category_id" that serves as a foreign key referencing the primary key "id" in the "Product_Category" table.
 Ans=>
 Here's the relevant part of the "Product" table definition:
-Table "product_category" {
+Table "product_category" {   
   "id" int [pk]
   "name" varchar
   "desc" text
